@@ -1,0 +1,80 @@
+run
+node .\file.js
+
+create pakage json-> npm init
+
+npm color
+------------------ 
+chalk 
+color
+
+node module delete
+-------------------
+npm install
+
+gitignor
+----------
+for ignor folders and files
+
+
+nodemoon
+------------------------
+run continu
+nodemoon-pkg 
+install - npm i nodemon -g
+g-> global install(no need to install again)
+
+
+-----------------
+200,201,500
+
+
+input
+-----------------
+process module
+process.argv -> argument vector
+
+---------------------------------
+
+buffer -> need some space in memory
+
+--------------------------
+
+Asynchronous Basic -> In asynchronous second task do not wait to finish first task
+synchronous -> In Synchronous operations tasks are performed one at a time.
+
+--------------------------------
+
+Express js
+-------------
+npm i express
+npm install express 
+
+
+Routing
+-------------------------------------
+app.get('*',(_,res)=>{
+    res.sendFile(`${publicPath}/404.html`)
+});
+
+
+Template Engine
+-------------------------------------
+ejs npm 
+npm install ejs 
+npm i ejs
+
+---------------------------------
+
+Rout level middleware
+---------------------------------
+
+
+MongoDB
+mail - janeki7231@picvw.com
+Pass- UGjhas1885@iulkajsf
+ur - janeki7231
+ps - eBZgUGtQiQrAJCCe
+
+------------------------------ 
+mongoDB Basic

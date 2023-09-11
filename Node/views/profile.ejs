@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile page</title>
+</head>
+<body>
+  <%- include('common/header'); %>
+  <h1>profile page</h1>
+  <p><b>Name:</b><%= user.name %></p>
+  <p><b>Email:</b><%= user.email %></p>
+  <p><b>Add:</b><%= user.city %></p>
+  <ul>
+    <% user.skills.forEach((item)=>{ %>
+      <li><%= item %></li>
+    <% }) %>
+
+  </ul>
+</body>
+</html>
