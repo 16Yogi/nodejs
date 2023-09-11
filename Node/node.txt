@@ -78,3 +78,16 @@ ps - eBZgUGtQiQrAJCCe
 
 ------------------------------ 
 mongoDB Basic
+
+//create database
+use dbname
+//create table 
+db.createCollection('mycollection')
+//show table
+show collections
+//show database
+show databases
+// delete collections(tables)
+db.collection2.drop()
+//delete database
+db.dropDatabase()
