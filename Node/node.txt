@@ -91,3 +91,35 @@ show databases
 db.collection2.drop()
 //delete database
 db.dropDatabase()
+//insert data
+db.products.insertOne({name:'Note-8',brand:'redmi',category:'mobile'})
+or 
+/** 
+* Paste one or more documents here
+*/
+{
+  "_id": {
+    "$oid": "650004b928e712639b41a222"
+  },
+  "name" :"askjdhfs",
+  "price":"fasdf"
+}
+
+//show data
+db.products.find()
+
+//update
+db.products.updateOne({name:"Note-10"},{$set:{brand:'dajshfjhask'}})
+
+//delete
+db.products.deleteOne({brand:"poco"})
+db.products.deleteOne({brand:"poco"})
+
+//mongoDB NodeJS Driver
+
+//for connecting
+npm i mongodb (install)
+
+//fix nodemon
+Get-ExecutionPolicy -List
+Set-ExecutionPolicy Urestricted
